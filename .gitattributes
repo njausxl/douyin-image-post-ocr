@@ -1,0 +1,14 @@
+# 统一行尾：仓库内一律 LF，避免 Windows 检出后被改成 CRLF
+# （.patch 尤其重要，CRLF 会影响 git apply）
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.html  text eol=lf
+*.patch text eol=lf
+*.yml   text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
