@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 中间产物与缓存（含真实收藏数据，务必不要提交）
+ocr_test/
+images/
+out/
+*.sqlite3
+*.jsonl
+
+# 密钥与临时文件
+*.tmp
+.sf_key*
+.env
+.env.*
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
