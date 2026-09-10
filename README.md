@@ -1,6 +1,17 @@
 # douyin-image-post-ocr
 
-> 给 [`douyin-favorites-to-knowledge`](https://gitee.com/tars123/douyin-favorites-to-knowledge) 补上两条被忽略的正文通道：
+> ### 🔀 这是 fork 修改版的配套技能包仓库
+>
+> | 仓库 | 地址 |
+> | --- | --- |
+> | **完整 fork**（含上游源码 + 我的修改，可直接 diff） | <https://github.com/njausxl/douyin-favorites-to-knowledge> |
+> | **上游原仓库** | [tars1230/douyin-favorites-to-knowledge](https://github.com/tars1230/douyin-favorites-to-knowledge) |
+> | 上游 Gitee 镜像 | [gitee.com/tars123](https://gitee.com/tars123/douyin-favorites-to-knowledge) |
+>
+> 本仓库是把修改内容**单独抽出来**的轻量技能包：**不想改动上游代码、只想给已有安装加上 OCR / 长文能力**的，直接装这个即可。
+> 想要完整可运行的修改版代码，请用上面的**完整 fork** 仓库。
+
+> 给 [`douyin-favorites-to-knowledge`](https://github.com/tars1230/douyin-favorites-to-knowledge) 补上两条被忽略的正文通道：
 > **图文帖的图片文字（OCR）** 与 **抖音长文的文章正文**。
 
 上游工具把抖音收藏同步成 Obsidian 笔记时，只有**语音识别（ASR）一条通道**。但收藏里的内容其实分三类，其中两类完全抓不到正文 —— 笔记里只剩标题，还混着一堆背景音乐跑出来的幻觉噪声。
@@ -9,7 +20,7 @@
 
 | 项目 | 说明 |
 |---|---|
-| 上游项目 | `douyin-favorites-to-knowledge`（Gitee: tars123） |
+| 上游项目 | [tars1230/douyin-favorites-to-knowledge](https://github.com/tars1230/douyin-favorites-to-knowledge)（本仓库为其 fork 修改版的配套技能包） |
 | 补丁改动 | 4 个文件，+437 / −9 行 |
 | 技能版本 | v1.4.0（10 个脚本 + 统一路径解析） |
 | 实测规模 | 932 条收藏 → 154 条图文帖 + 38 条长文 |
@@ -57,12 +68,16 @@
 ### 1. 装上游 + 打补丁
 
 ```bash
-git clone https://gitee.com/tars123/douyin-favorites-to-knowledge.git
+# 方式一（推荐）：直接 clone 完整 fork，已含全部修改，无需打补丁
+git clone https://github.com/njausxl/douyin-favorites-to-knowledge.git
+
+# 方式二：clone 上游原版，自己打补丁
+git clone https://github.com/tars1230/douyin-favorites-to-knowledge.git
+git apply <本仓库>/patches/0001-ocr-and-article-support.patch
+
 cd douyin-favorites-to-knowledge
 python -m venv .venv
 .venv/Scripts/pip install -e .        # POSIX: .venv/bin/pip
-
-git apply <本仓库>/patches/0001-ocr-and-article-support.patch
 ```
 
 补丁改动的 4 个文件：
