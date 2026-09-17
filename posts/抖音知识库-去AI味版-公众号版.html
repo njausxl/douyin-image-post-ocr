@@ -1,0 +1,199 @@
+<!-- ============ 正文片段（不含 html/head/body 骨架）============ -->
+<!-- 用法：浏览器打开 → Ctrl+A 全选 → Ctrl+C → 粘贴进公众号后台编辑器 -->
+<!-- 配图建议（需先走微信图床上传再插入）：① 架构图 ② 噪声转录对比 ③ 三类内容对照表 -->
+<!-- ============ 主容器 ============ -->
+<section style="padding:0 10px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;" data-page-node-id="FcHfWFtRoqDxKpFqSWiRQg">
+
+<!-- ============ 主标题 ============ -->
+<section style="margin:0 0 6px 0;" data-page-node-id="QSCb3iTCcQGhPkbz366xTI">
+<p style="margin:0;font-size:20px;font-weight:bold;color:#1a1a1a;text-align:center;letter-spacing:1px;line-height:1.5;" data-page-node-id="FmfBuiI5kWQOpsvrRC19zn">同步了半年的抖音收藏，正文是一段背景音乐</p>
+</section>
+
+<hr style="border:none;border-top:1px solid #e5e5e5;margin:16px 0 24px 0;" data-page-node-id="ORSDBTyhLrtvinRjfwUJPD">
+
+<!-- ============ 开篇 ============ -->
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="Af8OL9ivyAKnLb2W8vCEIU">我用一套开源工具，把抖音收藏自动同步成本地的 Obsidian 知识库。大半年下来跑了十几轮，攒了 <strong style="color:#c7000b;" data-page-node-id="cdeFkAx67lBdRYvhj0MqRB">932 条收藏、300 多篇笔记</strong>，一次报错都没出过。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="g2HYIEP8rt8wAdv6UWtUcP">上个月的某个晚上，我随手点开了几篇。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="80LyAJcfeUcxQQQc8CvcaC">有一篇的正文长这样：</p>
+
+<!-- 原始输出对照块 -->
+<section style="margin:0 0 16px 0;padding:14px 16px;background:#fafafa;border:1px solid #eeeeee;border-radius:6px;" data-page-node-id="BHyNQMXfH4QqGV7MzrCuas">
+<p style="margin:0;font-size:14px;color:#666666;line-height:1.9;font-family:Consolas,Monaco,monospace;word-break:break-all;" data-page-node-id="2xiuXKCmXgZC9NVflndHCM">🎼你生看。<br data-page-node-id="opWhJFElAH6ZjoQK36YsF3">🎼嗯。。🎼的都荡。The number you dialed is not in service.</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="cWCn7Xz4W09OAa5ptMbbZK">第二行那句「The number you dialed is not in service」，是语音识别对着一首纯音乐跑出来的东西。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="MWRwa8cDwRkwJgDPddEt6E">这篇笔记的头部，状态栏写着 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="CFhmFXvwATdtsDd7aMgCGn">success</code>。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="5WCwxnPZXpXvIzLziCL881">我又往后翻了几篇。这样的不止一条。</p>
+
+<!-- ============ 小节：这套流程是怎么跑的 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="jiXp5JxpuV5DJwBDa3JxAs">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="UF7PB1gAScfwsOLHHE2gke">这套流程是怎么跑的</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="8IFU11oyGS9kZAEOixsKRx">采集收藏、用一套规则筛掉娱乐类内容、语音转写、存成 Markdown 笔记，四个环节全自动，跑完不报错就算完事。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="Qjp7flK5Dlo8T9B2tscAiD">这里有个偷懒我认了：跑完之后，我从来没有打开成品看过。</p>
+
+<!-- ============ 小节：收藏夹里混着三类东西 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="99qCcH0eBj0H00eIXCDT25">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="NgySkuB4mSLNjpwt1ERwHf">收藏夹里混着三类东西</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="1gIuAm7HCjGGlpBKCXaCAn">翻接口返回和现有代码的时候我才发现，抖音的「收藏」根本不是一堆视频。按正文存在哪，它至少分三类：</p>
+
+<table style="width:100%;border-collapse:collapse;margin:0 0 16px 0;font-size:15px;color:#3f3f3f;line-height:1.6;" data-page-node-id="mxdAlPkPSCuv4h5JmDlop2">
+<tbody data-page-node-id="FbXvQXb1saB8ObOU6opI2S">
+<tr data-page-node-id="f1pdhbfC1eIyBqMEmNpzH8">
+<th style="padding:9px 8px;border:1px solid #e5e5e5;background:#f7f7f7;font-weight:bold;color:#333333;text-align:left;" data-page-node-id="1KyQ3NTw36BgBcrQ6so6b4">内容形态</th>
+<th style="padding:9px 8px;border:1px solid #e5e5e5;background:#f7f7f7;font-weight:bold;color:#333333;text-align:left;" data-page-node-id="HRaBwhPjrjEdZ8uYQNyR9Z">正文在哪</th>
+<th style="padding:9px 8px;border:1px solid #e5e5e5;background:#f7f7f7;font-weight:bold;color:#333333;text-align:left;" data-page-node-id="d6u2KRTt1ptQY8KOQeiTnw">原流程的处理</th>
+</tr>
+<tr data-page-node-id="kvTb6zrMyBIlGOKsOXmlI8">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="GsNVP5FcWOYGXADm9OAKEi">普通视频</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="oFFqpAxXUtorpdssYoSpKy">音轨里</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="A6oL4yEoYm5Av6feTRW1TV">语音识别，正常</td>
+</tr>
+<tr data-page-node-id="WJVrvx2ppAGdNUvQyJzT1Y">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;background:#fcfcfc;" data-page-node-id="VqCJerXKJSGvRJHguhXgnW">图文帖</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;background:#fcfcfc;" data-page-node-id="QtpPg2vH38lEx9jZOoXw1i">图片里</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;background:#fcfcfc;color:#c7000b;" data-page-node-id="xx0PI6L6QBx6X5q1A4URpI">抓不到，反过来产出噪声</td>
+</tr>
+<tr data-page-node-id="wSozwF58TJ8ohcLLnpjwCY">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="9BretRyzlDcOIw7UtFd58F">长文</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="qomsJn1E8XzilVS11lhGJ1">文章接口里</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;color:#c7000b;" data-page-node-id="anMlkC6YAfjnobUqnfMdaG">抓不到，正文为空</td>
+</tr>
+</tbody>
+</table>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="DB5NFE0wc8yrU4KRZ7YDaC">这条流水线只认识第一类。</p>
+
+<!-- ============ 小节：第一个坑 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="cUoyiPQwAV5upFebGvPzen">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="knfYjHMUJJDVIFkAydVIWI">第一个坑：视频地址指向的是背景音乐</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="ydlA6UjhJK01dejBFaaKye">图文帖没有视频流。它就是几张图，配一首歌。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="DDRrDfSmx9bY7eS7m7T0Ik">但接口返回的 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="wrzYvJpw27dqwlXGTYhKs8">video.play_addr</code> 字段照样填着一个地址，那是一段 MP3，就是这条帖子的背景音乐。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="3VAnsSSBmFSBJ8qK0e0p3J">工具不怀疑这个字段。它按老规矩把 MP3 送进语音识别，ASR 对着一首纯音乐跑了半天，输出上面那种东西，状态随后被标成 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="YgrCBuRmFQc9D9jnEKbSTc">success</code>。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="H0iBDgaBDGvBcd0sBE7vBP">正文全在图片里，一个字没进来。笔记里反而多了一堆噪声。</p>
+
+<!-- 判断方法提示块 -->
+<blockquote style="margin:0 0 16px 0;padding:12px 16px;background:#f7f7f7;border-left:3px solid #c7000b;" data-page-node-id="aCg3PsDEGf73c7aduvGEgs">
+<p style="margin:0;font-size:15px;color:#444444;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="9hWYdTPDSMGTbyZy5LcMbB">顺带说一个判断方法：一条收藏的 <code style="font-size:14px;color:#c7000b;font-family:Consolas,Monaco,monospace;" data-page-node-id="FRB9wO4L46E99L5NkhXQDu">play_url</code> 如果指向 <code style="font-size:14px;color:#c7000b;font-family:Consolas,Monaco,monospace;" data-page-node-id="ilAr13PP2cgMgIxZr1okiC">obj/ies-music</code> 并以 <code style="font-size:14px;color:#c7000b;font-family:Consolas,Monaco,monospace;" data-page-node-id="4jRQbvRWU0rzrX7wkEOWfK">.mp3</code> 结尾，它几乎一定是图文帖。</p>
+</blockquote>
+
+<!-- ============ 小节：第二个坑 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="AIHPeXnPyjfOoFH7CGkGSx">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="JyDhyioJx41EQnuGIbOiAo">第二个坑：正文被截断在 499 字</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="QdzJ7zNJ2da1HmFe4D1S9d">长文这头更安静。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="zW3VDVN5HW1UcDCulflqgD">这类内容的正文确实存在，放在 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="i8E5Sj6sZCiFmQCZr1ekPu">article_info.article_content</code> 里，收藏列表接口也会返给你，只是被截断在 <strong style="color:#c7000b;" data-page-node-id="g6jaByiFMzH4HYpN8uFA5E">499 个字符</strong>。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="EmwKGavMaeCmkhzSneb1gN">499 字够你看个开头，也够你以为全文就到这了。完整正文需要换一个接口才拿得到。列表接口返回的那一份看起来完全正常，没有截断标记，也没有警告。</p>
+
+<!-- ============ 小节：补上两条通道 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="S5ej3j4bREyLUBzA2fbDCO">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="YvoTWdAO85IcSqwqMGo4vp">补上两条通道</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="2bKz7WFQqKsHEgHodjZf3H">定位清楚之后方案很直接：给这条流水线补两条它从来没长出来的通道。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="XqXLfNBIL6BbxqNgj5J6GG">采集时多取一个 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="0IKXawOHhuIlueXDIALHZ2">item.images</code> 字段，把图片送去视觉模型做 OCR；认出长文的 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="08zEL5KdYU2C0ysbZ51KaU">article_id</code>，改走 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="gBD4RdfEacUvh8hzbILsyD">aweme/detail</code> 接口取完整正文。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="Q333Byyx7crNE8e2GSaGT5">一共动了 4 个文件，四百多行。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="UjpwRF3v8WnFCyIVNpxKcX">图片这一步踩了个模型的坑。我一开始用的专门的文档 OCR 模型 PaddleOCR-VL-1.5，它在社交截图这种图上会反复退化：输出一长串 <code style="font-size:15px;color:#c7000b;font-family:Consolas,Monaco,monospace;background:#f7f7f7;padding:1px 4px;border-radius:3px;" data-page-node-id="e0EdmljsaXtkqjNgbWDBYp">0000</code>，或者一堆 emoji，一直吐到把 token 撑满才停。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="cN3b2v5DDITJgNdgbZRgJC">换成通用视觉模型 Qwen3-VL-30B-A3B 之后就干净了，正文、楼中楼的评论、表格结构都能还原。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="PUD6ziMbgfxKblHRFVCrxh">专用模型是在理想场景里专用，贴吧截图和手机截图不是理想场景。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="wkjrgpvIBeXME1fya1iVAv">笔记里的样子也随之变了：图文帖会多出一段「图片文字 (OCR)」，逐图列出识别结果；长文会多出一段「文章正文」，保留抖音原文的 Markdown 格式。</p>
+
+<!-- ============ 小节：跑完之后 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="SAcDmrLfJWp451OGbj9ltT">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="2qOCDALD06uVsml3snikQJ">跑完之后</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="RAicKlNO2Etrn6XWv3ORf7">比「能识别」更要紧的是，这两条通道接进了主同步管线。以后每次同步自动分流：有图的走 OCR，有文章的直接取正文（不消耗 API 额度），都没有才走语音识别。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="WZ4sdyEkIGBq9BePqLU7pU">实测数据：</p>
+
+<table style="width:100%;border-collapse:collapse;margin:0 0 16px 0;font-size:15px;color:#3f3f3f;line-height:1.6;" data-page-node-id="WAQ6YDSNq4uXoGYEtMNqjV">
+<tbody data-page-node-id="99zJOFpkQZFGhgJO0p4yQm">
+<tr data-page-node-id="gGgnH217HDRl2rmFLbEY99">
+<th style="padding:9px 8px;border:1px solid #e5e5e5;background:#f7f7f7;font-weight:bold;color:#333333;text-align:left;" data-page-node-id="QmNmEYWsoU8wzlIkKVk0ur">指标</th>
+<th style="padding:9px 8px;border:1px solid #e5e5e5;background:#f7f7f7;font-weight:bold;color:#333333;text-align:left;" data-page-node-id="Jt4gHkWPiSSNWPfTuzThFH">数值</th>
+</tr>
+<tr data-page-node-id="GRzd5Ff1fKwly9Je5lbbgx">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="k9e6NWkc8xJcXNxJezCem6">收藏总数</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="iZl7CSGhQfes5PidZiQp2Y">932 条</td>
+</tr>
+<tr data-page-node-id="FFue3hL7hPkE2LKMizElIw">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;background:#fcfcfc;" data-page-node-id="HXr5DUeReESxhBbiB7kMTW">图文帖</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;background:#fcfcfc;" data-page-node-id="rOhfYMU8dfC6CCkcDsL3fr">154 条（其中 122 条已产出 OCR 正文）</td>
+</tr>
+<tr data-page-node-id="Og5L1VaCbMWvQWqOBYSZg2">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="dZORffHO28KQU4GAPmyP2E">长文</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="rBNvCzRZfl7VDYD1BWr5Ky">38 条（补回 35 条）</td>
+</tr>
+<tr data-page-node-id="wPDitV8m7Qfis7zVKVa60m">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;background:#fcfcfc;" data-page-node-id="04zJLR4w3CV2Bp1byoEftr">长文正文合计</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;background:#fcfcfc;" data-page-node-id="94p9OEeLYcSKCXtsizZFzy">136,850 字</td>
+</tr>
+<tr data-page-node-id="InNJa0Fsn73StijfMTAJpa">
+<td style="padding:9px 8px;border:1px solid #e5e5e5;" data-page-node-id="tKfGzJoHJ5v6lqlqqTiejA">知识库笔记</td>
+<td style="padding:9px 8px;border:1px solid #e5e5e5;color:#c7000b;font-weight:bold;" data-page-node-id="qRLyJXc1AgEREuZA0XdQ38">306 条 → 366 条</td>
+</tr>
+</tbody>
+</table>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="v6vmTvgYuL16Y1n4jcshtM">最费劲的一条是 100 张图的贴吧长帖。抖音给它的 caption 只有 22 个字的 hashtag，正文全在图里，OCR 出 <strong style="color:#c7000b;" data-page-node-id="AxSBVCKDBpCGzaduytcS8R">24,533 字</strong>，连楼中楼的回帖都抽了出来。帖子里讲的是流浪汉的江湖，最后一张图是楼主替一位老人还了 260 块钱的账。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="7XjVqlTGmJOpCZy362tXIK">还有一批是长文。字数最多的一条是「数字生命卡兹克」写的 Codex 教程，14,948 字；作者里还有一位叫「生信数据人」。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="u5YZ7AciDl8jXaA49DXRiY">取样验证的时候跑了 6 条图文帖、145 张图，端到端 6 分 57 秒，平均每张 2.9 秒。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="c7WPWN9tt3X63GVZJw0AQ4">顺带查出另一件事。当初筛收藏我用过「去掉娱乐类」的口径，连坐误伤了一批：81 条图文帖从来没进过库，其中 49 条是正经的知识内容。它们从头到尾没被处理过一次。</p>
+
+<!-- ============ 小节：这个病，我在生信里见过 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="JuyG8OX2DyoFHDjwRu6haB">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="sSVKdTGcjDRfCzIiZZ1nVB">这个病，我在生信里见过</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="BlSEUCRfb1Dqe1xwG2BPgU">跑过生信流程的人对这套东西有肌肉记忆。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="DtGO03trwRrRrfTWmO91aP">六小时的比对，日志从第一行绿到最后一行，比对率 99%。你关掉终端去做下游分析。三周后才发现，有一半的 reads 比对到了载体序列上。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="X2x9DhBczUxbyAgXPkC5QN">工具没坏，参数没写错，流程也没崩。它只是没有告诉你，有哪些事它压根没做。</p>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="SLMYGJh7LFerCkElLonqB4">现在我多了一个很土的习惯：不管跑什么自动化，都随机点开几个成品，亲眼看一下。这一次，就是这一眼翻出了那 154 条。</p>
+
+<!-- ============ 小节：补丁和技能包 ============ -->
+<section style="margin:28px 0 14px 0;" data-page-node-id="qEbQg178E7HnMCQ2aVRokK">
+<p style="margin:0;font-size:17px;font-weight:bold;color:#333;line-height:1.6;border-left:4px solid #c7000b;padding-left:10px;" data-page-node-id="dz4r4JzeaCFA4l26pHSQkl">补丁和技能包</p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="hN3HAicmnSDq6F6grMli8m">都开源了。</p>
+
+<section style="margin:0 0 16px 0;padding:12px 14px;background:#fafafa;border-left:3px solid #e5e5e5;" data-page-node-id="DfmRGt7ZzUClrECzyWRDhO">
+<p style="margin:0 0 6px 0;font-size:15px;color:#3f3f3f;line-height:1.7;letter-spacing:0.5px;" data-page-node-id="4LH0wPKgKzWexlw9ZJhTKr">完整 fork（含 4 个文件的改动、补丁、三份实测报告和架构图）<br data-page-node-id="yTBRWGbhnPCXcip32JhSNc"><span style="font-size:14px;color:#c7000b;word-break:break-all;" data-page-node-id="H5D4pZA4YtE8X95WFG4Xki">https://github.com/njausxl/douyin-favorites-to-knowledge</span></p>
+<p style="margin:0;font-size:15px;color:#3f3f3f;line-height:1.7;letter-spacing:0.5px;" data-page-node-id="QsOPRqki4zxGu5DLfFLSBy">配套技能包（含部署步骤和 11 个脚本）<br data-page-node-id="lfEDwdfjNy3zvImeWHBzue"><span style="font-size:14px;color:#c7000b;word-break:break-all;" data-page-node-id="fEOGFi05CcCILXkA3k3rj7">https://github.com/njausxl/douyin-image-post-ocr</span></p>
+</section>
+
+<p style="margin:0 0 16px 0;font-size:16px;color:#3f3f3f;line-height:1.75;letter-spacing:0.5px;" data-page-node-id="BPwekDcCNeZoIjMtaNNP48">如果你也在用类似的流程整理收藏，翻两篇笔记看看正文就行。</p>
+
+<!-- 结尾分割线 -->
+<hr style="border:none;border-top:1px solid #e5e5e5;margin:26px 0 0 0;" data-page-node-id="paZ5BD4S8P3uTPxnS59buk">
+
+</section>

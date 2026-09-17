@@ -2,8 +2,8 @@
 import re, html, sys, pathlib
 
 BASE = pathlib.Path(__file__).resolve().parent
-MD = BASE / "帖子正文.md"
-HT = BASE / "抖音知识库图文帖与长文补全-公众号版.html"
+MD = BASE / (sys.argv[1] if len(sys.argv) > 1 else "抖音知识库-去AI味版-正文.md")
+HT = BASE / (sys.argv[2] if len(sys.argv) > 2 else "抖音知识库-去AI味版-公众号版.html")
 
 md = MD.read_text(encoding="utf-8")
 ht = HT.read_text(encoding="utf-8")
